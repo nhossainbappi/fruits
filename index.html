@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+
+
+<body>
+
+  <div class="container mx-auto px-5">
+      <div class="navbar bg-white lg:bg-[#F85559] lg:py-8 lg:px-12 mt-12 lg:text-white rounded-full">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <ul tabindex="0" class="hidden lg:flex gap-7">
+              <li><a>Home</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruits</a></li>
+            </ul>
+            <label tabindex="0" class="lg:hidden btn btn-ghost btn-circle">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+            </label>
+            <ul tabindex="0" class="lg:hidden menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 w-28 rounded-box text-black">
+              <li><a>Home</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruits</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="navbar-center">
+          <img src="images/logo.png" alt="">
+          <a class="btn btn-ghost normal-case text-4xl">Fruit Burst</a>
+        </div>
+        <div class="hidden md:flex navbar-end">
+          <div class="form-control relative">
+            <input type="text" placeholder="Search here..." class="input input-bordered md:w-auto lg:w-96 rounded-full" />
+            <button class="absolute btn btn-ghost btn-circle right-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="gray"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
